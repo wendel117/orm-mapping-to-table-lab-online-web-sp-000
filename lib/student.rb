@@ -20,7 +20,7 @@ class Student
         album TEXT
         )
         SQL
-    DB[:conn].execute(sql) 
+    DB[:conn].execute(sql)
   end
 
   def self.drop_table

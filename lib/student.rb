@@ -13,10 +13,10 @@ class Student
   end
 
   def self.create_table
-    sql =  <<-SQL 
+    sql =  <<-SQL
       CREATE TABLE IF NOT EXISTS songs (
-        id INTEGER PRIMARY KEY, 
-        name TEXT, 
+        id INTEGER PRIMARY KEY,
+        name TEXT,
         album TEXT
         )
         SQL
@@ -28,5 +28,5 @@ class Student
 
   def self.create
   end
-  
+
 end
